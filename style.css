@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.mainForm{
+    background-color: blue;
+    padding: 30px;
+    border-radius: 20px;
+}
+.mainForm h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+.supportForm{
+    padding: 10px;
+}
+.supportForm input{
+    padding: 10px;
+    border-radius: 10px;
+}
+.supportForm textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.myBtn{
+    text-align: center;
+}
+.myBtn input:hover{
+    background-color: rgba(0, 0, 255, 0.633);
+    color: white;
+}
